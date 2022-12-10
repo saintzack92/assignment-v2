@@ -1114,32 +1114,6 @@ html {
                     }
                 }
 
-                // .hiding-buble-container {
-                //     // background-color: red;
-                //     position: absolute;
-                //     width: 600px;
-                //     height: 100%;
-                //     margin: auto;
-                //     // position: relative;
-                //     z-index: 500;
-                //     // justify-content: end;
-                //     // bottom: 380px;
-                //     right: 0;
-                //     top: 258px;
-
-                //     .hiding-buble {
-                //         display: flex;
-                //         margin: 0 auto;
-                //         // background-color: blue;
-                //         position: relative;
-                //         justify-content: end;
-                //         // z-index: 700;
-                //         top: 60px;
-                //         // top: 447px;
-                //         // left: 50px;
-                //     }
-                // }
-
             }
         }
 
@@ -1922,7 +1896,6 @@ html {
         .last-footer-container{
             position: relative;
             width: 60.95%;
-            background-color: red;
             display: flex;
             margin: 0 auto;
             justify-content: space-between;
@@ -2320,11 +2293,8 @@ html {
     }
 
     .container-top .container-nav .parent-nav-second-cont .second-main-cont {
-        // bottom: 100%;
         padding-bottom: 185px;
-        // height: 900;
         position: relative;
-        // height: 675.5px;
     }
 
     .container-top .container-nav .parent-nav-second-cont .second-main-cont .second-main-cont-child {
@@ -2345,9 +2315,6 @@ html {
 
     .container-top .container-nav .parent-nav-second-cont .second-main-cont .second-main-cont-child .grow-business-parent .second-desc {
         height: calc(28px + 12.1vw);
-        // line-height: calc(17px + 1.355vw); 
-        // position: relative;
-        // bottom: 10px;
     }
 
     .container-top .container-nav .parent-nav-second-cont .second-main-cont .second-main-cont-child .buble-parent {
@@ -2402,7 +2369,6 @@ html {
                     .read-more-parent .read-more-container {
                         width: 100px;
                         height: 30px;
-                        // padding: -5px;
                         position: relative;
                         bottom: 20px;
                     }
@@ -2410,13 +2376,7 @@ html {
             }
 
             .play-section-3-container {
-                // top: 20px;
                 position: relative;
-                // background-color: green;
-                // bottom: 90px;
-                // left: 20%;
-                // display: flex;
-                // align-items: center;
             }
         }
     }    
@@ -2461,11 +2421,9 @@ html {
             .article-4 {
                 position: relative;
                 top: -150px;
-                // display: flex;
-                // position: relative;
 
                 .section-4-parent {
-                    // top: 200px;
+                    
                     .foto-container {
                         ul {
                             .foto {
