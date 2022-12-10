@@ -1114,31 +1114,31 @@ html {
                     }
                 }
 
-                .hiding-buble-container {
-                    // background-color: red;
-                    position: absolute;
-                    width: 600px;
-                    height: 100%;
-                    margin: auto;
-                    // position: relative;
-                    z-index: 500;
-                    // justify-content: end;
-                    // bottom: 380px;
-                    right: 0;
-                    top: 258px;
+                // .hiding-buble-container {
+                //     // background-color: red;
+                //     position: absolute;
+                //     width: 600px;
+                //     height: 100%;
+                //     margin: auto;
+                //     // position: relative;
+                //     z-index: 500;
+                //     // justify-content: end;
+                //     // bottom: 380px;
+                //     right: 0;
+                //     top: 258px;
 
-                    .hiding-buble {
-                        display: flex;
-                        margin: 0 auto;
-                        // background-color: blue;
-                        position: relative;
-                        justify-content: end;
-                        // z-index: 700;
-                        top: 60px;
-                        // top: 447px;
-                        // left: 50px;
-                    }
-                }
+                //     .hiding-buble {
+                //         display: flex;
+                //         margin: 0 auto;
+                //         // background-color: blue;
+                //         position: relative;
+                //         justify-content: end;
+                //         // z-index: 700;
+                //         top: 60px;
+                //         // top: 447px;
+                //         // left: 50px;
+                //     }
+                // }
 
             }
         }
@@ -1342,10 +1342,12 @@ html {
     }
 
     .article-4 {
+    
         position: relative;
+        height: 1500px;
         width: 100%;
         padding: 175px 0;
-        background-color: grey;
+        // background-color: red;
         top: 813px;
         display: flex;
         justify-content: center;
@@ -1928,13 +1930,13 @@ html {
             // left: 340px;
             z-index: 200;
             .last-footer-cop{
-                background-color: skyblue;
+                // background-color: skyblue;
                 padding: 5px;
                 width: 50%;
 
             } 
             .last-footer-list{
-                background-color: green;
+                // background-color: green;
                 padding: 5px;
                 width: 50%;
                 ul{
@@ -1949,7 +1951,22 @@ html {
 }
 
 
+@media screen and (max-width:1680px) {
+    .container-top .container-nav {
 
+        .parent-nav-second-cont {
+
+            .article-4 {
+                // top: 0;
+                height: 1900px;
+
+                
+            }
+        }
+
+    }
+    
+}
 @media screen and (max-width:1500px) {
     .container-top .container-nav .parent-nav-second-cont footer {
         top: 0;
@@ -2028,6 +2045,7 @@ html {
 
     .container-top .container-nav .parent-nav-second-cont .article-4 {
         top: 0;
+        height: 1000px;
 
         .section-4-parent {
             .foto-container {
@@ -2193,7 +2211,40 @@ html {
 
 }
 
+@media screen and (max-width:980px) {
+    .container-top .container-nav{
+    .article-4 {
+        top: 0;
+        // display: flex;
 
+        .section-4-parent {
+            .foto-container {
+                ul {
+                    .foto {
+                        width: calc(163.5px + 15.1vw);
+                        height: calc(217.5px + 20.1vw);
+                    }
+
+                    .black {
+                        .black-container {
+                            .button-x {
+                                top: 10px;
+                                right: 30px;
+                                width: 30px;
+                                height: 30px;
+                            }
+
+                            .child {
+                                margin-bottom: 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
 
 @media screen and (max-width:740px) {
     .container-top .container-nav .container-nav-first {
@@ -2408,9 +2459,13 @@ html {
             }
 
             .article-4 {
-                top: 0;
+                position: relative;
+                top: -150px;
+                // display: flex;
+                // position: relative;
 
                 .section-4-parent {
+                    // top: 200px;
                     .foto-container {
                         ul {
                             .foto {
