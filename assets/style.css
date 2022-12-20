@@ -1442,7 +1442,6 @@ html {
 .container-top footer .last-footer-container {
   position: relative;
   width: 60.95%;
-  background-color: red;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
